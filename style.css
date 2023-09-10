@@ -1,0 +1,51 @@
+body{
+    background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    font-family:"Sofia", sans-serif;
+}
+
+#bookAdventureBtn {
+    margin-top: 0;
+    text-align: center;
+    background-color: #cc2366;
+    color: #c1f573;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.5rem;
+    margin-top: 20px;
+
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 250px; 
+    margin-bottom: 10px;
+}
+
+#submitbtm{
+        margin-top: 0;
+        text-align: center;
+        background-color: #521c1c;
+        color: #c1f573;
+        font-family: Arial, Helvetica, sans-serif;
+}
